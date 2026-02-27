@@ -1,0 +1,73 @@
+/*
+  Custom CSS Variables - Ajuste aqui para todo o site
+  Sistema de espaçamento responsivo e escalável
+*/
+:root {
+  /* Espaçamento entre seções */
+  --section-spacing-sm: 1rem;      /* Mobile */
+  --section-spacing-md: 1.2rem;    /* Tablet */
+  --section-spacing-lg: 1.5rem;    /* Desktop */
+  
+  /* Espaçamento interno de cards */
+  --card-padding: 1.5rem;
+  --card-spacing: 1rem;
+  
+  /* Typography spacing */
+  --heading-margin: 0.5rem;
+  --paragraph-margin: 0.75rem;
+}
+
+/* ============================================
+   SEÇÕES DA HOME - Espaçamento Global
+   ============================================ */
+.home-section {
+  padding-block: var(--section-spacing-sm) !important;
+  margin: 0 !important;
+}
+
+.home-section + .home-section {
+  margin-top: 0 !important;
+}
+
+/* Responsivo: Tablet */
+@media (min-width: 768px) {
+  .home-section {
+    padding-block: var(--section-spacing-md) !important;
+  }
+}
+
+/* Responsivo: Desktop */
+@media (min-width: 1024px) {
+  .home-section {
+    padding-block: var(--section-spacing-lg) !important;
+  }
+}
+
+/* ============================================
+   CARDS - Projetos, Posts, etc
+   ============================================ */
+[role='article'] {
+  --card-internal-spacing: var(--card-spacing);
+}
+
+[role='article'] .p-8 {
+  padding: var(--card-padding) !important;
+}
+
+/* Espaçamento entre título e conteúdo do card */
+[role='article'] h3 + p {
+  margin-top: var(--paragraph-margin) !important;
+}
+
+/* ============================================
+   BIOGRAFIA - Resume Section
+   ============================================ */
+.resume-biography {
+  padding-block: var(--section-spacing-sm) !important;
+}
+
+@media (min-width: 768px) {
+  .resume-biography {
+    padding-block: var(--section-spacing-md) !important;
+  }
+}

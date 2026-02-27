@@ -1,116 +1,124 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Franciel Vasconcelos"
+  given: "Franciel"
+  family: "Vasconcelos"
+  alternate: ""
+  pronunciation: ""
+  pronouns: "he/him"
+  middle: "Silveira Penha de"
 postnominals:
-  - PhD
-  - MIEEE
+  - "BSc"
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  icon: "👨‍💻"
+role: "Master Student Software Engineer Research Scientist"
+bio: "Franciel Vasconcelos is a Master Student Software Engineering Research Scientist at Unicamp. He works on teaching, research, and outreach projects, with an interest in Software Engineering, Project Management, agile methodologies, and computational technologies applied to education."
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "LASER"
+    url: "https://laser.ic.unicamp.br/"
+  - name: "Institute of Computing"
+    url: "https://ic.unicamp.br/"
+  - name: "University of Campinas (UNICAMP)"
+    url: "https://www.unicamp.br/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "hero/at-symbol"
+    url: "mailto:franciel.vasconcelos@students.ic.unicamp.br"
+    label: "Email"
+  - icon: "brands/github"
+    url: "https://github.com/soumbra"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/franciel-silveira/"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=JCDYW7cAAAAJ&hl"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0009-6980-0536"
+  - icon: "academicons/lattes"
+    url: "http://lattes.cnpq.br/5761580284969051"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Software Engineering"
+  - "Software Ecosystems"
+  - "Code Samples"
+  - "Software Project Management"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+  - degree: "MSc in Computer Science"
+    institution: "University of Campinas (UNICAMP)"
+    start: "2026-02"
+    end: "2028-02"
+  - degree: "BSc in Information Systems"
+    institution: "Universidade Federal do Ceará (UFC)"
+    start: "2021-03"
+    end: "2025-08"
+    summary: "Undergraduate Thesis on Gamification in Software Project Management Education: A Systematic Literature Review\n"
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      text: "Download dissertation"
+      url: "uploads/tcc-franciel-vers-o-abnt-2025-ufc.pdf"
+      icon: "hero/arrow-down-tray"
+  - degree: "Technical Degree in Computer Networks"
+    institution: "EEEP Rosângela Albuquerque de Couto"
+    start: "2017-01"
+    end: "2020-12"
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: "Full-Stack Developer"
+    org: "Núcleo de Práticas de Informática - Universidade Federal do Ceará (UFC)"
+    start: "2024-11"
+    end: "2025-07"
+    summary: "Worked on the development of web applications, contributing to backend and frontend features.
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      Implemented RESTful APIs, CRUD operations, and system integrations using Java with Spring Boot.
 
+      Developed frontend components with Vue.js and TypeScript.
+
+      Integrated authentication and authorization using Keycloak.
+
+      Collaborated with stakeholders to gather requirements and validate deliverables.
+
+      Applied structured problem analysis before implementation to improve software quality.\n"
+  - role: "Project Manager / Research Assistant"
+    org: "PET-SI (Programa de Educação Tutorial - Sistemas de Informação)"
+    start: "2023-03"
+    end: "2025-07"
+    summary: "Participated in the development of teaching, research, and extension projects.
+
+      Acted as vice-coordinator, leading teams, organizing activities, and managing project workflows.
+
+      Organized academic events, workshops, and short courses.
+
+      Developed leadership, communication, and project management skills.
+
+
+      Key projects included:
+
+      - PETHardware: educational initiative focused on computer assembly
+
+      - PETPlay: gamification to reduce student dropout
+
+      - PETRecebe: university outreach for high school students
+
+      - UFC nas Escolas: dissemination of academic opportunities
+
+      - POBI: preparation program for the Brazilian Informatics Olympiad
+
+      - WTISC: organization of a regional technology workshop\n"
+  - role: "Undergraduate Research Assistant"
+    org: "Universidade Federal do Ceará (UFC)"
+    start: "2022-03"
+    end: "2022-12"
+    summary: "Worked on operational support and process improvement in the university equipment management system.
+
+      Managed inventory and controlled equipment loans for the Computer Engineering course.
+
+      Identified risks in manual record-keeping processes and contributed to the design and implementation of a digital control system.
+
+      Improved efficiency and reduced errors in asset tracking and loan management.\n"
 languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - name: "Portuguese"
+    level: null
+    label: "Native"
+  - name: "English"
+    level: null
+    label: "Intermediate"
+ids:
+  orcid: "0009-0009-6980-0536"
+  google_scholar: "JCDYW7cAAAAJ&hl"
